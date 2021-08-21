@@ -1,0 +1,25 @@
+{
+    "name": "Censor Chrome",
+    "description": "Censor words you hate from the Chrome pages you visit!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/censor16.png",
+            "32": "/images/censor32.png",
+            "48": "/images/censor48.png",
+            "128": "/images/censor128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/censor16.png",
+        "32": "/images/censor32.png",
+        "48": "/images/censor48.png",
+        "128": "/images/censor128.png"
+    }
+}

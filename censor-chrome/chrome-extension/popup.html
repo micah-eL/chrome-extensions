@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" /> 
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        <div class="popup">
+            <h2 class="popup-title">Censor Chrome Extension</h2>
+
+            <div class="row">
+                <p>
+                    Censor unpleasant words by entering a word and clicking the button below!
+                </p>
+            </div>
+
+            <div class="row">
+                <form id="wordToCensorForm">
+                    <label for="wordToCensor">Word to censor:</label>
+                    <br>
+                    <input type="text" id="wordToCensor" name="wordToCensor" required>
+                </form>
+            </div>
+
+            <div class="row">
+                <button type="button" id="censorWordButton">CENSOR</button>
+            </div>
+
+            <div class="row">
+                <p>
+                    Note: This extension is case sensitive (i.e. word != Word).
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="copyright">
+                    <small>&copy; Micah Lau | 2019</small>
+                </div>
+            </div>
+        </div>
+
+        <script src="popup.js"></script>
+    </body>
+</html>
