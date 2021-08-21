@@ -17,7 +17,7 @@ Example usage:
 1. gcc censored.c -o censor
 2. ./censor ringo john < beatles.txt > censored_beatles.txt
 
-This will create a .txt file called censored_beatles that is a copy of beatles.txt except the words 'ringo' and 'john' will read 'CENSORED' instead.
+This will create a .txt file called censored_beatles that is a copy of beatles.txt except the words 'ringo' and 'john' will read 'CENSORED' instead.\
 
 
 ### Background Color Modifier
